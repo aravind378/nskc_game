@@ -1,0 +1,344 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body, html {
+  height: 100%;
+} */
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #87ceeb 60%, #6bbf59 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+
+.sky {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.sun {
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  right: 15%;
+  width: 10%;
+  transform: translateX(50%);
+}
+
+
+
+.cloud1 {
+  top: 10px;
+  position: absolute;
+  left: 20px;
+  width: 12%;
+}
+
+
+.cloud1-1 {
+  top: 10px;
+  position: absolute;
+  width: 15%;
+  right: 10px;
+}
+
+
+.cloud2 {
+  top: 80px;
+  position: absolute;
+  width: 10%;
+  right: 190px;
+}
+
+
+.cloud2-1 {
+  position: absolute;
+  width: 15%;
+  top: 80px;
+  left: 20%;
+}
+
+
+
+.bird {
+  position: absolute;
+  transform: translateX(100%);
+  width: 8%;
+  top: 100px;
+}
+
+
+.logo {
+  position: absolute;
+  width: 20%;
+  transform: translateX(-50%);
+
+}
+
+
+.kids-desk {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.kids-desk img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.kids {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.kids img {
+  width: 40%;
+  object-fit: contain;
+}
+
+
+.start {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 160px;
+}
+
+.start-btn {
+  background: #ffc107;
+  padding: 10px 16px 10px;
+  border: none;
+  font-size: 26px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:374px) 
+{
+
+    .sun {
+        top: 10px;
+        left: 30%;
+        width: 30%;
+    }
+
+    .cloud1 {
+        top: 50px;
+        left: 20px;
+        width: 30%;
+    }
+
+    .cloud1-1 {
+        top: 25px;
+        width: 30%;
+        right: 20px;
+    }
+  
+    .cloud2 {
+        top: 80px;
+        width: 30%;
+        right: 70px;
+    }
+
+    .cloud2-1 {
+        top: 120px;
+        width: 25%;
+        left: 20px;
+    }
+
+    .bird {
+        top: 200px;
+        right: 40px;
+        transform: unset;
+        width: 20%;
+    }
+
+    .logo {
+        width: 80%;
+        top: 35%;
+    }
+
+    .kids-desk {
+        display: none;
+    }
+
+    .kids {
+        display: unset;
+    }
+
+    .kids img {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+        bottom: 175px;
+    }
+
+    .start-btn {
+        padding: 10px 16px 10px;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+}
+
+
+@media screen and (min-width:375px) and (max-width:400px) 
+{
+
+    .sun {
+        top: 10px;
+        left: 30%;
+        width: 30%;
+    }
+
+    .cloud1 {
+        top: 50px;
+        left: 20px;
+        width: 30%;
+    }
+
+    .cloud1-1 {
+        top: 25px;
+        width: 30%;
+        right: 20px;
+    }
+  
+    .cloud2 {
+        top: 80px;
+        width: 30%;
+        right: 70px;
+    }
+
+    .cloud2-1 {
+        top: 120px;
+        width: 25%;
+        left: 20px;
+    }
+
+    .bird {
+        top: 200px;
+        right: 40px;
+        transform: unset;
+        width: 20%;
+    }
+
+    .logo {
+        width: 50%;
+        top: 35%;
+    }
+
+    .kids-desk {
+        display: none;
+    }
+
+    .kids {
+        display: unset;
+    }
+  
+    .kids img {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+        bottom: 205px;
+    }
+
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:450px) 
+{
+
+    .sun {
+        top: 10px;
+        left: 40%;
+        width: 25%;
+    }
+
+    .cloud1 {
+        top: 50px;
+        left: 20px;
+        width: 30%;
+    }
+
+    .cloud1-1 {
+        top: 25px;
+        width: 30%;
+        right: 20px;
+    }
+  
+    .cloud2 {
+        top: 80px;
+        width: 30%;
+        right: 70px;
+    }
+
+    .cloud2-1 {
+        top: 120px;
+        width: 25%;
+        left: 20px;
+    }
+
+    .bird {
+        top: 200px;
+        right: 30px;
+        transform: unset;
+        width: 20%;
+    }
+
+    .logo {
+        width: 50%;
+        top: 30%;
+    }
+
+    .kids-desk {
+        display: none;
+    }
+
+    .kids {
+        display: unset;
+    }
+  
+    .kids img {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+        bottom: 235px;
+    }
+
+}
